@@ -1,0 +1,1 @@
+A companion variable dictionary corresponds to the Parquet shards. For each of the 470 variables, it records the variable name, definition, type, and, where applicable, the list of valid values, as well as a plot showing that variable's availability over time. This document provides essential reference information for interpreting the dataset and selecting columns for analysis.
