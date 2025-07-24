@@ -4,4 +4,4 @@ aggregate_fpds_contract_level.py processes each monthly shard in sequence, group
 
 aggregate_fpds_duckdb.py (the recommended, multithreaded DuckDB rewrite) performs the same operations but does the grouping inside DuckDB, collapses duplicates across all shards in one pass, and finishes in about a minute on an SSD.
 
-Both scripts output a contract‑level Parquet, which is available in Figshare. Users can tweak the grouping key or aggregation functions by editing the short configuration block at the top of either script. The 
+Both scripts output a contract‑level Parquet, which is available in Figshare. Users can tweak the grouping key or aggregation functions by editing the short configuration block at the top of either script. 
